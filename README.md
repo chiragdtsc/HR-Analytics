@@ -7,13 +7,10 @@
 
 1. Formula to create Office Working days column
 
-`Office Working days = 
-Var totaldays = [Count]
-
-VAR nonworkdays = CALCULATE([Count],'Final Data'[Value] in {"HO", "WO"})
-
-RETURN
-totaldays-nonworkdays column`
+`Office Working days = Var totaldays = [Count]`  </br>
+`VAR nonworkdays = CALCULATE([Count],'Final Data'[Value] in {"HO", "WO"})` </br>
+`RETURN` </br>
+`totaldays-nonworkdays column`
 
 2. Formula to create Attendance % column
 
